@@ -1,0 +1,4 @@
+requests==1.2.3
+
+mailsnake==1.6.2
+wsgiref==0.1.2

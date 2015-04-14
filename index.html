@@ -1,0 +1,156 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en-US"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en-US"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en-US"><!--<![endif]-->
+    <head>
+        <meta name="description" content="The Seattle Intern Project helps interns connect with leaders in technology and make the most out of their internships. Sign up on the mailing list to find out more about events and meet people!" />
+        <meta property="og:image" content="http://seattle.internproject.io/assets/img/main1_2.jpg" />
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+          <!-- Basic Page Needs
+          ================================================== -->
+        <meta charset="UTF-8">
+        <title>The Seattle Intern Project</title>
+
+          <!-- Mobile Specific Metas
+          ================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+            <!-- CSS
+          ================================================== -->
+
+
+
+
+          <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+          <![endif]-->
+
+        <meta name="robots" content="noindex,nofollow">
+        <link rel="alternate" type="application/rss+xml" title="Parallax » Feed" href="http://themes.webcreations907.com/ninezeroseven/option-one/feed/">
+        <link rel="alternate" type="application/rss+xml" title="Parallax » Comments Feed" href="http://themes.webcreations907.com/ninezeroseven/option-one/comments/feed/">
+        {% include scripts.ext %}
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://themes.webcreations907.com/ninezeroseven/option-one/xmlrpc.php?rsd">
+        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://themes.webcreations907.com/ninezeroseven/option-one/wp-includes/wlwmanifest.xml">
+
+        <link rel="icon" type="image/png" href="/assets/img/fav_icon-32x32.png">
+        <meta name="generator" content="WordPress 3.5.1">
+    </head>
+
+    <body class="home blog">
+
+    <!-- Primary Page Layout
+      ================================================== -->
+
+    <!-- TOP BAR -->
+        <section class="headerContent entry">
+          <div class="super">
+            <div class="container message">
+                    <div id="slidecaption">
+                      <h2>The Seattle Intern Project</h2><br>
+                        <p>Starting this summer to help you have an awesome time here.</p><br>
+                    </div>
+            </div>
+          </div>
+        </section> <!-- ./headerContent -->
+        <div id="photo-attribution">Photo credit: Ken from <a href="http://razorsharpinsights.blogspot.com/2012/04/seattle-skyline-at-night.html" target="_blank">Razor Sharp Insights</a></div>
+        <div class="full-header" id="top-sticky-wrapper">
+            <section class="topBar" id="top">
+                <div class="container">
+
+                    <!-- DROP DOWN ENDS -->
+
+                    <section class="alternate-bg1">
+                        <div class="container">
+                            <div class="sixteen columns">
+                                <div id="info-about">
+                                    <p>A summer in Seattle has a lot to offer. This summer, we'll help you make the most of yours by connecting you with other interns and introducing you to key players in the Seattle startup scene. This mailing list will keep you up to date on organized dinners, future meetups, and other ways to get involved in the tech community.</p>
+                                    <p>Don't miss out on a curated list of the summer's best hackathons, intern meetups, speakers, and startup events! </br>Sign up below to keep updated.</p>
+                                    <form action="" id="signup-form" class="signup-form">
+                                        <div id= "email-submit-form">
+                                            <div class="input-append">
+                                            <input class="email-signup-text" name="email" class="email" type="text" placeholder="student@school.edu" style="width: 250px;">
+                                            <button id="btn-signup" class="color-btn main-btn" class="email-signup-submit">Sign Up</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                <div class="success-message">{% include success-message.ext %}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="gallery alternate-bg1" id="recent-works">
+                        <div class="container">
+                            <div class="titleBar" id = 'top-resource-bar'><h2>Resources</h2></div>
+                            {% for post in site.posts %}
+                            {% unless post.hide_from_front_page %}
+                            <div class="one-third column project">
+                                <div class="gallery-padding">
+                                    {% if post.external_url %}
+
+                                    <a class="post-item" href="{{ post.external_url }}" data-category="{{post.categories[0]}}">
+
+                                    {% else %}
+
+                                    <a class="post-item" href="{{ post.url }}" data-category="{{post.categories[0]}}">
+
+                                    {% endif %}
+
+
+                                        <h6><span>{{post.categories[0] | replace: '-', ' '}}</span></h6>
+                                        <div class="img-frame">
+                                            <div class="image-wrapper">
+                                                <img src="{{ post.image_url }}" class="scale-with-grid">
+                                                <div class="mouse-effect"></div>
+                                            </div>
+                                            <h5>{{ post.title }}</h5>
+                                            <p>{{ post.tagline }}</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            {% endunless %}
+                            {% endfor %}
+
+                            <div class="one-third column project">
+                                <div class="gallery-padding">
+                                    <div class="img-frame" style="height: 211.9375px">
+                                        <div id='last-signup-block'>
+                                            <h5 id="signup-message">Did we miss something?</br>Have an article that</br>we should include?</br><a href="/tips">Let us know!</a></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- ./container -->
+                    </section> <!-- ./services -->
+
+                    <section class="alternate-bg1">
+                        <div class="container">
+                            <div class="titleBar" id = 'top-resource-bar'><h2>Sponsors</h2></div>
+                            <div class="sixteen columns">
+                                <p>Interested in getting involved? Please shoot us an <a href='mailto:involvement@seattleinternproject.com'>email</a>!</p>
+                                <!-- <a href = "http://a16z.com">
+                                    <img src = "/assets/img/a16_logo.png" height="36px" />
+                                </a> -->
+                            </div>
+                        </div>
+                    </section>
+                    
+                </div> <!-- ./container -->
+                <div id= 'footer-padding'></div>
+                {% include footer.ext %}
+            </section>
+        </div> <!-- ./topBar --> 
+
+        <!-- ENDS TOP BAR -->
+
+        <div class="clear"></div>
+
+    </body>
+</html>

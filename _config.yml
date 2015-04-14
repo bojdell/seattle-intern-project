@@ -1,0 +1,6 @@
+exclude: [".rvmrc", ".rbenv-version", ".gitignore", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "Procfile", "vendor", "_new_post_template.md"]
+
+markdown: rdiscount
+title: The Intern Project
+domain: http://internproject.io
+permalink: /:categories/:title

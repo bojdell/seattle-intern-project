@@ -1,0 +1,47 @@
+<link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
+
+<section class="footer" id="foot">
+	<div class="container">
+        <div class="attribution">
+            <div>
+                <span class="share facebook-share fb-share-button">
+                    <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fseattleinternproject&amp;width=230&amp;height=62&amp;colorscheme=dark&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=212252102281057" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:230px; height:62px;" allowTransparency="true"></iframe>
+                </span>
+                <span class="share twitter-share">
+                    <a href="https://twitter.com/SeattleIntProj" class="twitter-follow-button" data-show-count="false" data-size="small">Follow @SeattleIntProj</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </span>
+
+            </br>
+                <span style="color: grey;">A branch of 
+                    <a class="attribution" href="http://internproject.io">The Intern Project</a>
+                    <!-- TODO - less awkward attribution model -->
+                </span>
+            </div>
+
+
+        </div>
+
+
+    <div style = "clear:both"></div>
+
+	</div><!-- ./container -->
+</section><!-- ./footer -->
+
+<script src='https://cdn.firebase.com/v0/firebase.js'></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-51788188-1']);
+    _gaq.push(['_trackPageview']);
+    (function()
+    {
+         var ga = document.createElement('script');
+         ga.type = 'text/javascript';
+         ga.async = true;
+         ga.src = ('https:' == document.location.protocol ?
+             'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0];
+         s.parentNode.insertBefore(ga, s);
+     })();
+</script>
+<script src="http://j.maxmind.com/js/geoip.js" charset="ISO-8859-1" type="text/javascript" ></script>

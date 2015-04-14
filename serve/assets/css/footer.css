@@ -1,0 +1,47 @@
+.input-append {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.input-append input, .input-append button {
+	float: left;
+	vertical-align: top;
+	margin: 0;
+	font-size: 16px;
+	height: 32px;
+}
+
+.input-append input {
+	-webkit-border-radius: 4px 0 0 4px;
+	-moz-border-radius: 4px 0 0 4px;
+	-o-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+	padding: 9px;
+}
+
+.input-append button {
+	-webkit-border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
+	-o-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
+	padding-bottom: 5px;
+}
+
+#signup-form {
+	margin-left: 10px;
+}
+
+#signup-form label {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.success-message {
+	text-align: center;
+	padding: 30px 0px;
+	display: none;
+	font-size: 16px;
+	color: #53A141;
+}
+
