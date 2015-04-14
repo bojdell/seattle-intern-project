@@ -1,8 +1,7 @@
 seattle-intern-project
 ==================
 
-The Seattle Intern Project
-Sid, Jay, and Bo trying to start The Intern Project in Seattle. Original TIP by Alex and Alexey.
+Sid, Jay, and Bo trying to start The Intern Project in Seattle. Original TIP in San Francisco by Alex and Alexey.
 
 to run locally:
 * rvm use 1.9.3
