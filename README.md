@@ -1,8 +1,8 @@
-The-Intern-Project
+seattle-intern-project
 ==================
 
-The Intern Project
-Alex and Alexey try to help interns, craziness ensues.
+The Seattle Intern Project
+Sid, Jay, and Bo trying to start The Intern Project in Seattle. Original TIP by Alex and Alexey.
 
 to run locally:
 * rvm use 1.9.3
